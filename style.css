@@ -91,6 +91,7 @@ input{
   -webkit-transition: all .15s ease-out;
   width: 80%;
   top: 20px;
+  margin-left:10%;
 }
 input:focus{
   border-bottom: 2px solid #6F14AB;
