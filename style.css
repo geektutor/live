@@ -121,6 +121,7 @@ button{
   -webkit-transition: all .15s ease-out;
   width: 80%;
   top:10px;
+  margin-left:10%;
 }   
 button:hover{
   background: #444;
