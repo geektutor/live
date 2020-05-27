@@ -2,9 +2,6 @@
     if (isset($_POST['submit'])) {
         $name = mysqli_real_escape_string($conn, $_POST['name']);
         $email = mysqli_real_escape_string($conn, $_POST['email']);
-       
-        
-
         $current = time() + 3600;
         $d = date('H:i:s', $current);
         $currentTime = strtotime($d);
@@ -60,12 +57,12 @@
 <body> 
     
     <div class="box">
-        <form method="POST">
             <p class="signin">Attendance Signin</p>
             <div class="signin-row">
                 
             </div>
             <p class="signin-tex">The Next Conference</p>
+            <form method="POST">
             
             <input name="name" type="text" placeholder="Enter Your Full Name">
             <br/>
