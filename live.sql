@@ -1,6 +1,6 @@
 /*
 SQLyog Ultimate v11.5 (64 bit)
-MySQL - 5.7.24 : Database - leaderboard
+MySQL - 5.7.24 : Database - mushpgwz_tnc
 *********************************************************************
 */
 
@@ -13,9 +13,9 @@ MySQL - 5.7.24 : Database - leaderboard
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`leaderboard` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`mushpgwz_tnc` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
-USE `leaderboard`;
+USE `mushpgwz_tnc`;
 
 /*Table structure for table `attendance` */
 
