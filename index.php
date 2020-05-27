@@ -57,11 +57,7 @@
 <body> 
     
     <div class="box">
-            <p class="signin">Attendance Signin</p>
-            <div class="signin-row">
-                
-            </div>
-            <p class="signin-tex">The Next Conference</p>
+            <p class="signin">The Next Conference</p>
             <form method="POST">
             
             <input name="name" type="text" placeholder="Enter Your Full Name">
