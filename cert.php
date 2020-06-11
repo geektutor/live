@@ -9,9 +9,9 @@
         if ($countEmail > 0) {
             $sql = "UPDATE certificate SET `certified` = '1' WHERE `email` = '$email'";
             if($conn->query($sql)){
-                $sentence = "http://thenextconf.pythonanywhere.com/generate/?first_name={$first}&last_name={$last}";
+                $sentence = "https://thenextconf.pythonanywhere.com/generate/?first_name={$first}&last_name={$last}";
                 $stripped = str_replace(' ', '', $sentence);
-                header("location:.$stripped.");
+                header("location:$stripped");
             }else{
                 die('could not enter data: '. $conn->error);
             }
